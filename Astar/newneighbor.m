@@ -1,4 +1,5 @@
-function result = newneighbor(OPEN,neighbor,esttotcost) %sorts the neighbor into the appropriate spot in the OPEN matrix based on esttotcost
+%sorts the neighbor into the appropriate spot in the OPEN matrix based on esttotcost
+function result = newneighbor(OPEN,neighbor,esttotcost)
     result = zeros(10,2);
     i = 1;
 if OPEN(1,1) ~= 0 %if there is at least one node already in open
