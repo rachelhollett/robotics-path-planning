@@ -1,5 +1,5 @@
 
-function path = Astar(edges,nodes) %takes a matrix of nodes and a matrix of edges and returns the lowest cost path between the first and last node
+function path = Astar(edges,nodes) %takes a matrix of nodes and a matrix of edges and returns the lowest cost path between the first and last node 
 solutionfound = 0;
 
 OPEN = zeros(10,2); %initialize the OPEN and CLOSED matrices
