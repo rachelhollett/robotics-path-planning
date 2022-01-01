@@ -1,4 +1,5 @@
-function path = pathfinder(parent,numnodes) %finds the final path based on the parent matrix
+%finds the final path based on the parent matrix
+function path = pathfinder(parent,numnodes)
     bigmatrix = zeros(1,1000);
     bigmatrix(1000) = numnodes;
     currentnode = numnodes;
