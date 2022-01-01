@@ -1,4 +1,5 @@
-function new = fixOPEN(OPEN) %move all elements in OPEN up by one row
+%move all elements in OPEN up by one row
+function new = fixOPEN(OPEN)
 
 i = 1;
 while OPEN(i+1,1) ~= 0
