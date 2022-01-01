@@ -1,4 +1,5 @@
-function [neighbor,cost] = neighborfinder(current,edge) %if current is a node on the edge, return the other node and the cost of the path
+%if current is a node on the edge, return the other node and the cost of the path
+function [neighbor,cost] = neighborfinder(current,edge)
 neighbor = 0;
 cost = 0;
     if current == edge(1)
